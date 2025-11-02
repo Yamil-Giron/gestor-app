@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background: #ff9800;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e68900;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
+/* Contenedor principal */
+#root {
+  display: flex;
+  justify-content: center;   /* centra horizontal */
+  align-items: flex-start;   /* alinea arriba (puedes usar center si quieres al medio vertical) */
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Caja de la app */
+.app-container {
+  width: 100%;
+  max-width: 800px;          /* limita el ancho para que no se vaya de lado */
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
